@@ -197,9 +197,10 @@ if($_SESSION['lid']==false)
                                         $name=$_SESSION['f_name'];
                                         $str=strval($id);
                                         $str="s".$name."".$str;
+                                        echo $str;
                                         $str=strtolower($str);
                                         $_SESSION['string']=$str;
-                                        $query="SELECT * FROM `$str`";
+                                        $query="SELECT * FROM $str";
                                         $run=mysqli_query($con ,$query);
                                         ?>
 
