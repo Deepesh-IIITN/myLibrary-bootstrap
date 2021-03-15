@@ -28,7 +28,7 @@ if($run==TRUE)
             bookno INT(30) NOT NULL,
 			reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 )";
-$run1=mysqli_query($con,$sql);
+$con->query($sql);
 ?>
 <script type="text/javascript">
 alert("Registered successfully");
