@@ -219,7 +219,7 @@ if($_SESSION['lid']==false)
                                         <tbody>
                                             <?php
                                                 $i=1;
-                                                while( mysqli_num_rows($run)>0 && $data=mysqli_fetch_assoc($run))
+                                                while( $run==true && mysqli_num_rows($run)>0 && $data=mysqli_fetch_assoc($run))
                                                 {
                                                 ?>
                                             <tr>
