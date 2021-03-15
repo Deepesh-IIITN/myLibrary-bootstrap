@@ -39,7 +39,8 @@ if($run==TRUE)
             email VARCHAR(30),
 			reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 )";
-
+$con->query($sql);
+$con->query($sql1);
 	?>
 	<script type="text/javascript">alert("Registered successfully");
      window.location.href="index.php";</script>
