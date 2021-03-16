@@ -69,7 +69,7 @@ else
                 <p>Here a Librarian can manage transactions of books (Issue, Re-issue, Return).</p>
             </div>
             <div class="col-lg-6 my-md-2 py-lg-5 py-md-2 pr-lg-5 pr-md-0">
-                <img class="img-fluid" src="images/library.jpg" alt="">
+                <img class="img-fluid" src="images/library.jpeg" alt="">
             </div>
         </div>
     </div>
