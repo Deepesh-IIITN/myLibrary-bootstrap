@@ -49,6 +49,10 @@ if($_SESSION['lid']==false)
 <body>
     <?php
        $profile = "active";
+       $home="";
+       $issued_books="";
+       $all_transactions="";
+       $logout="";
        include("librarian-navbar.php");
     ?>
     <div class="container">

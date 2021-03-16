@@ -23,6 +23,7 @@ if($run==TRUE)
 	$data=mysqli_fetch_assoc($run1);
 	$str=strval($data['id']);
 	$str="s".$fname."".$str;
+	$str=strtolower($str);
 	$sql = "CREATE TABLE $str (
             id INT(50) AUTO_INCREMENT PRIMARY KEY,
             bookno INT(30) NOT NULL,

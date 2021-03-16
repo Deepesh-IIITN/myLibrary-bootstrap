@@ -22,6 +22,7 @@ if($run==TRUE)
 	$str=strval($data['id']);
 	$str1="ti".$fname."".$str;
 	$str="t".$fname."".$str;
+	$str=strtolower($str);
 	$sql = "CREATE TABLE $str (
             id INT(50) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
             bookno VARCHAR(30) NOT NULL,
@@ -31,6 +32,7 @@ if($run==TRUE)
 			request_type VARCHAR(30),
 			reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 )";
+    $str1=strtolower($str1);
 	$sql1 = "CREATE TABLE $str1 (
             id INT(50) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
             bookno VARCHAR(30) NOT NULL,

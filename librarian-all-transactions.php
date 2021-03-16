@@ -56,6 +56,10 @@ if($_SESSION['lid']==false)
 <body>
     <?php
        $all_transactions = "active";
+       $home="";
+       $issued_books="";
+       $profile="";
+       $logout="";
        include("librarian-navbar.php");
     ?>
     <div class="container my-5 py-5">
@@ -125,7 +129,7 @@ if($_SESSION['lid']==false)
                         <?php
                         if($i==1)
                         {
-                            echo "<p class='text-center' style='color:red'>No Book Issued</p>";
+                            echo "<p class='text-center' style='color:red'>No Transaction Yet</p>";
                         }
                         ?>
                     </div>

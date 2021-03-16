@@ -85,6 +85,10 @@ if($_SESSION['lid']==false)
 <body>
     <?php
        $home="active";
+       $issued_books="";
+       $all_transactions="";
+       $profile="";
+       $logout="";
        include("librarian-navbar.php");
     ?>
     <div>
@@ -197,12 +201,12 @@ if($_SESSION['lid']==false)
                                         $name=$_SESSION['f_name'];
                                         $str=strval($id);
                                         $str="s".$name."".$str;
-                                        echo $str;
+                                        // echo $str;
                                         $str=strtolower($str);
                                         $_SESSION['string']=$str;
                                         $query="SELECT * FROM $str";
                                         $run=mysqli_query($con ,$query);
-                                        echo $run;
+                                        // echo $run;
                                         ?>
 
                                 <div class="table-responsive">
