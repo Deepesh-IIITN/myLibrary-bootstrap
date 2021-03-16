@@ -20,7 +20,7 @@ if($_SESSION['lid']==false)
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="icon" href="images/favicon.png">
+    <link rel="icon" href="images/favicon2.png">
     <title>d-library | Profile</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
