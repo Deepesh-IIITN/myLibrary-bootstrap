@@ -22,7 +22,7 @@ if(!isset($_SESSION['stu_id']))
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="icon" href="images/favicon.png">
-    <title>myLibrary | Student</title>
+    <title>d-library | Student</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
 </head>

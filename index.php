@@ -27,7 +27,7 @@ else
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="icon" href="images/favicon.png">
-    <title>myLibrary</title>
+    <title>d-library</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
 </head>
@@ -39,7 +39,7 @@ else
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="">myLibrary</a>
+        <a class="navbar-brand" href="">d-library</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -64,7 +64,7 @@ else
     <div class="container my-5 py-5">
         <div class="row">
             <div class="col-lg-6 py-lg-5 py-md-2 px-lg-5 text-lg-left text-center">
-                <h2 class="mt-lg-5 pt-lg-4">Welcome to myLibrary</h2>
+                <h2 class="mt-lg-5 pt-lg-4">Welcome to d-library</h2>
                 <h5>India's largest Library Managemenet System</h5>
                 <p>Here a Librarian can manage transactions of books (Issue, Re-issue, Return).</p>
             </div>
