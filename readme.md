@@ -14,7 +14,6 @@ Database     :-  Mysql </br>
 ![ss31](https://user-images.githubusercontent.com/69786385/157091974-a6751831-24d1-4846-813c-d99749ef78cc.PNG)
 ![ss32](https://user-images.githubusercontent.com/69786385/157091968-fc68ba3b-c943-4ba5-a803-563adbdec3c2.PNG)
 ![ss33](https://user-images.githubusercontent.com/69786385/157091992-e6693a71-1dfb-4e35-bd6f-9c8b5ef55939.PNG)
-![ss34](https://user-images.githubusercontent.com/69786385/157091989-2deedc13-56a1-47fc-9e97-edff16535533.PNG)
 ![ss35](https://user-images.githubusercontent.com/69786385/157091987-505c5bf0-820d-4aef-b37f-243a9abd17bc.PNG)
 
 
