@@ -101,10 +101,9 @@ if($_SESSION['lid']==false)
                                 <div class="m-auto">
                                     <form class="form-inline"
                                         action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
-                                        <label for="email">Student Information: </label>
+                                        <label for="email">Student Roll No: </label>
                                         <input type="text" class="form-control mx-sm-2 my-sm-0 my-3 "
-                                            placeholder="Enrollment Number" name="student-roll" required>
-					    <small class="form-text text-muted">Ex: bt18cse086</small>
+                                            placeholder="Ex: bt18cse086" name="student-roll" required>
                                         <button type="submit" class="btn btn-dark">Submit</button>
                                     </form>
                                 </div>
