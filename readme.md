@@ -1,6 +1,16 @@
 # d-library
 
 <h3>Live Demo :- <a href="https://d-library.herokuapp.com/index.php">d-library</a></h3>
+<pre>
+For Testing
+Teacher: 
+   email:teacher@gmail.com 
+   Password: 1234
+Student: 
+   email:student1@gmail.com 
+   Password: 12345678
+</pre>
+
 <p>
 ClientSide    :-  HTML, CSS, Bootstrap, Javascript, jquery </br>
 ServerSide   :-  PHP </br>
