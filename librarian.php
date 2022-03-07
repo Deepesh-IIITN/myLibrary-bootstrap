@@ -104,6 +104,7 @@ if($_SESSION['lid']==false)
                                         <label for="email">Student Information: </label>
                                         <input type="text" class="form-control mx-sm-2 my-sm-0 my-3 "
                                             placeholder="Enrollment Number" name="student-roll" required>
+					    <small class="form-text text-muted">Ex: bt18cse086</small>
                                         <button type="submit" class="btn btn-dark">Submit</button>
                                     </form>
                                 </div>
